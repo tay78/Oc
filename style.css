@@ -42,3 +42,27 @@ a{
   font-weight: 700;
   font-style: normal; 
 }
+.bl{
+  width:20vw;
+  height: 10vw;
+  border-radius: 20%;
+  background: plum;
+  
+}
+
+h2, p, h1{
+  
+  background: plum;
+}
+img{
+  width:50vw;
+  height: 50vw;
+}
+
+.bod{
+
+  background: plum;
+  margin: 5vw;
+  padding: 5vw;
+  border-radius: 7%;
+}
