@@ -37,7 +37,7 @@ a{
   font-weight: 700;
   font-style: normal;
 }
-.c{
+.c, d{
     width:20vw;
     height: 10vw;
     border-radius: 20%;
