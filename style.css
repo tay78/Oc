@@ -37,7 +37,7 @@ a{
   font-weight: 700;
   font-style: normal;
 }
-.c, .d{
+.c{
     width:20vw;
     height: 10vw;
     border-radius: 20%;
@@ -45,6 +45,15 @@ a{
    font-family: "Fuzzy Bubbles", sans-serif;
   font-weight: 700;
   font-style: normal; 
+}
+.d{
+  width:20vw;
+  height: 10vw;
+  border-radius: 20%;
+  background-image: plum;
+  font-family: "Fuzzy Bubbles",sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 .bl{
   width:20vw;
