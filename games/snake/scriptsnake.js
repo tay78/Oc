@@ -1,6 +1,6 @@
 let xposition=-90;
 let yposition=-90;
-let player = document.querySelector('.player');
+var player = document.querySelector('.player');
 let apple = document.querySelector('.apple');
 let xplayer=0;
 let yplayer= 0;
@@ -33,14 +33,17 @@ document.addEventListener('keydown', function(event) {
     console.log(player.style.left, player.style.top);
       if(window.innerWidth < xplayer|| yplayer > window.innerHeight||0 > yplayer||0 > xplayer){
 game.style.opacity=1;
-     
+
 }
     if(apple.style.left == player.style.left && apple.style.top == player.style.top){
         const randomMultipleOfSeven = getRandomMultiple(90, 0, s.width);
 const randomMultipleOfOne = getRandomMultiple(90, 0, s.height);
        apple.style.left = randomMultipleOfSeven+'px';
 apple.style.top = randomMultipleOfOne+'px';
+var divClone2 = player.cloneNode(true); // the true is for deep cloning
+document.body.appendChild(divClone2);
 }
+
 
     if(event.keyCode == 37) {
         //alert('Left was pressed');
