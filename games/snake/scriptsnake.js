@@ -30,17 +30,18 @@ apple.style.top = randomMultipleOfOne+'px';
 
 
 document.addEventListener('keydown', function(event) {
-
+    console.log(player.style.left, player.style.top);
+      if(window.innerWidth < xplayer|| yplayer > window.innerHeight||0 > yplayer||0 > xplayer){
+game.style.opacity=1;
+     
+}
     if(apple.style.left == player.style.left && apple.style.top == player.style.top){
         const randomMultipleOfSeven = getRandomMultiple(90, 0, s.width);
 const randomMultipleOfOne = getRandomMultiple(90, 0, s.height);
        apple.style.left = randomMultipleOfSeven+'px';
 apple.style.top = randomMultipleOfOne+'px';
 }
- //  if(s.width == player.style.left || player.style.top == s.height||-90 >= player.style.top||-90 >= s.player.style.left){
-game.style.opacity=1;
-       
-}
+
     if(event.keyCode == 37) {
         //alert('Left was pressed');
  xplayer= -90+ xplayer;
@@ -65,6 +66,7 @@ yplayer = 90+ yplayer;
 player.style.left = xplayer+'px';
 player.style.top = yplayer+'px';
     }
+
 });
 for (var i = 0; i < 9; i++) {
     var square = document.querySelector(".square");
