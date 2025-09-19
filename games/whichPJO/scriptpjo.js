@@ -5,6 +5,8 @@ let trait = document.querySelector(".trait");
 let music = document.querySelector(".music");
 let weapon = document.querySelector(".weapon");
 let buttons = document.querySelector(".buttons");
+let clique = document.querySelector(".clique");
+let movie = document.querySelector(".movie");
 let text = document.querySelector("h4");
 let percy = document.querySelector('.percy');
 let grover = document.querySelector('.grover');
@@ -49,6 +51,8 @@ character.style.display = "none";
 trait.style.display = "none";
 music.style.display = "none";
 weapon.style.display = "none";
+clique.style.display = "none";
+movie.style.display = "none";
 
 b1.addEventListener('click', function () {
     //activity = activity.value;
@@ -56,7 +60,13 @@ b1.addEventListener('click', function () {
     trait.style.display = "none";
     color.style.display = "block";
     activity.style.display = "none";
-   
+
+character.style.display = "none";
+trait.style.display = "none";
+music.style.display = "none";
+weapon.style.display = "none";
+clique.style.display = "none";
+movie.style.display = "none";
         let answer1 = document.querySelector(".answer1").value;
 
     if (answer1 === "water related") {
@@ -66,7 +76,7 @@ b1.addEventListener('click', function () {
         score2 = score2 + 1;
         
     } else if (answer1 === "sports") {
-        score3 = score3 + 1;
+        score9 = score9 + 1;
 
     } else if (answer1 === "reading") {
         score4 = score4 + 1;
@@ -106,22 +116,29 @@ b2.addEventListener('click', function () {
     else if (answer2 === "black") {
         score2 = score2 + 1;
         
+    }   else if (answer2 === "grey") {
+        score4 = score4 + 1;
+        
     } else if (answer2 === "green") {
         score3 = score3 + 1;
 
     } else if (answer2 === "pink") {
-        score4 = score4 + 1;
+        score7 = score7 + 1;
 
     }if (answer2 === "orange") {
         score6 = score6 + 1;
 
     }if (answer2 === "purple") {
         score11 = score11 + 1;
-        score10= score10+1;
-    }if (answer2 === "red") {
+        score10= score10 + 1;
+    }if (answer2 === "gold") {
         score8 = score8 + 1;
 
-    } else {
+    }if (answer2 === "red") {
+        score9 = score9 + 1;
+
+    } 
+     else {
         score5 = score5 + 1;
 
     }
@@ -144,6 +161,7 @@ b3.addEventListener('click', function () {
         let answer3 = document.querySelector(".answer3").value;
     if (answer3 === "rock") {
         score1 = score1 + 1;
+        score9 = score9 + 1;
     }
     else if (answer3 === "metal") {
         score2 = score2 + 1;
@@ -156,9 +174,16 @@ b3.addEventListener('click', function () {
 
     }else if (answer3 === "classical") {
         score4 = score4 + 1;
-
+        score11 = score11 + 1;
     }else if (answer3 === "jazz") {
         score7 = score7 + 1;
+
+    }
+    else if (answer3 === "electronica") {
+        score6 = score6 + 1;
+
+    }else if (answer3 === "animal noises") {
+        score10 = score10 + 1;
 
     }
      else {
@@ -177,10 +202,12 @@ b4.addEventListener('click', function () {
     //  activity = activity.value;
     //if (event.keyCode == 13) {
         weapon.style.display = "none";
-
+clique.style.display = "block";
     color.style.display = "none";
     activity.style.display = "none";
-    trait.style.display = "block";
+   music.style.display = "none";
+weapon.style.display = "none";
+movie.style.display = "none";
         let answer4 = document.querySelector(".answer4").value;
     if (answer4 === "pen") {
         score1 = score1 + 1;
@@ -193,6 +220,110 @@ b4.addEventListener('click', function () {
 
     } else if (answer4 === "hat") {
         score4 = score4 + 1;
+
+    }else if (answer4 === "suitcase") {
+        score6 = score6 + 1;
+
+    }else if (answer4 === "gold") {
+        score7 = score7 + 1;
+
+    }else if (answer4 === "bear") {
+        score9 = score9 + 1;
+
+    }   else if (answer4 === "sword") {
+        score10 = score10 + 1;
+        score11 = score11 + 1;
+    }   else if (answer4 === "words") {
+        score8 = score8 + 1;
+    }   
+     else {
+        score5 = score5 + 1;
+
+    }
+    console.log(answer4);
+    console.log(score1);
+    console.log(score2);
+    console.log(score3);
+    console.log(score4);
+    console.log(score5);
+//}
+});
+b6.addEventListener('click', function () {
+    //  activity = activity.value;
+    //if (event.keyCode == 13) {
+        weapon.style.display = "none";
+    color.style.display = "none";
+    activity.style.display = "none";
+    music.style.display = "none";
+weapon.style.display = "none";
+clique.style.display = "none";
+    movie.style.display = "block";
+        let answer4 = document.querySelector(".answer4").value;
+    if (answer4 === "athlete") {
+        score1 = score1 + 1;
+          score10 = score10 + 1;
+    }
+    else if (answer4 === "loner") {
+        score2 = score2 + 1;
+          score7 = score7 + 1;
+    } else if (answer4 === "class clown") {
+        score6 = score6 + 1;
+
+    } else if (answer4 === "nerd") {
+        score4 = score4 + 1;
+  score3 = score3 + 1;
+    }else if (answer4 === "teacher's pet") {
+        score11 = score11 + 1;
+    }
+    else if (answer4 === "popular") {
+        score8 = score8 + 1;
+  score9 = score9 + 1;
+    }
+     else {
+        score5 = score5 + 1;
+
+    }
+    console.log(answer4);
+    console.log(score1);
+    console.log(score2);
+    console.log(score3);
+    console.log(score4);
+    console.log(score5);
+//}
+});
+b7.addEventListener('click', function () {
+    //  activity = activity.value;
+    //if (event.keyCode == 13) {
+        weapon.style.display = "none";
+ trait.style.display = "block";
+    color.style.display = "none";
+    music.style.display = "none";
+weapon.style.display = "none";
+clique.style.display = "none";
+movie.style.display = "none";
+    activity.style.display = "none";
+    
+        let answer4 = document.querySelector(".answer4").value;
+    if (answer4 === "action") {
+        score1 = score1 + 1;
+        score10 = score10 + 1;
+    }
+    else if (answer4 === "horror") {
+        score2 = score2 + 1;
+  score8 = score8 + 1;
+    
+    } else if (answer4 === "romance") {
+        score3 = score3 + 1;
+  score7 = score7 + 1;
+    
+    } else if (answer4 === "documentaries") {
+        score4 = score4 + 1;
+score11 = score11 + 1;
+    }else if (answer4 === "sci-fi") {
+        score9 = score9 + 1;
+
+    }else if (answer4 === "western") {
+        score6 = score6 + 1;
 
     } else {
         score5 = score5 + 1;
@@ -215,22 +346,24 @@ b5.addEventListener('click', function () {
         let answer5 = document.querySelector(".answer5").value;
         if (answer5 === "knowledge") {
             score4 = score4 + 1;
+            score11 = score11 + 1;
         }
         else if (answer5 === "humor") {
-            score1 = score1 + 1;
+            score6 = score6 + 1;
     
         } else if (answer5 === "resourcefulness") {
             score3 = score3 + 1;
-    
+    score8 = score8 + 1;
         } else if (answer5 === "looks") {
             score2 = score2 + 1;
     
         } else if (answer5 === "friendliness") {
-            score2 = score2 + 1;
+            score7 = score7 + 1;
     
         }else if (answer5 === "loyalty") {
-            score1 = score1 + 1;
-    
+            score9 = score9 + 1;
+    score1 = score1 + 1;
+    score10 = score10 + 1;
         }else {
             score5 = score5 + 1;
     
@@ -252,7 +385,7 @@ b5.addEventListener('click', function () {
         annabeth.style.display = "none";
         grover.style.display = "none";
         luke.style.display = "none";
-                              leo.style.display = "none";
+        leo.style.display = "none";
                 hazel.style.display = "none";
                 piper.style.display = "none";
                 frank.style.display = "none";
@@ -267,7 +400,7 @@ b5.addEventListener('click', function () {
             annabeth.style.display = "none";
             grover.style.display = "none";
             luke.style.display = "none";
-                                  leo.style.display = "none";
+             leo.style.display = "none";
                 hazel.style.display = "none";
                 piper.style.display = "none";
                 frank.style.display = "none";
