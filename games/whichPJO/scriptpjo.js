@@ -258,24 +258,24 @@ b6.addEventListener('click', function () {
 weapon.style.display = "none";
 clique.style.display = "none";
     movie.style.display = "block";
-        let answer4 = document.querySelector(".answer4").value;
-    if (answer4 === "athlete") {
+        let answer6 = document.querySelector(".answer6").value;
+    if (answer6 === "athlete") {
         score1 = score1 + 1;
           score10 = score10 + 1;
     }
-    else if (answer4 === "loner") {
+    else if (answer6 === "loner") {
         score2 = score2 + 1;
           score7 = score7 + 1;
-    } else if (answer4 === "class clown") {
+    } else if (answer6 === "class clown") {
         score6 = score6 + 1;
 
-    } else if (answer4 === "nerd") {
+    } else if (answer6 === "nerd") {
         score4 = score4 + 1;
   score3 = score3 + 1;
-    }else if (answer4 === "teacher's pet") {
+    }else if (answer6 === "teacher's pet") {
         score11 = score11 + 1;
     }
-    else if (answer4 === "popular") {
+    else if (answer6 === "popular") {
         score8 = score8 + 1;
   score9 = score9 + 1;
     }
@@ -303,26 +303,26 @@ clique.style.display = "none";
 movie.style.display = "none";
     activity.style.display = "none";
     
-        let answer4 = document.querySelector(".answer4").value;
-    if (answer4 === "action") {
+        let answer7 = document.querySelector(".answer7").value;
+    if (answer7 === "action") {
         score1 = score1 + 1;
         score10 = score10 + 1;
     }
-    else if (answer4 === "horror") {
+    else if (answer7 === "horror") {
         score2 = score2 + 1;
   score8 = score8 + 1;
     
-    } else if (answer4 === "romance") {
+    } else if (answer7 === "romance") {
         score3 = score3 + 1;
   score7 = score7 + 1;
     
-    } else if (answer4 === "documentaries") {
+    } else if (answer7 === "documentaries") {
         score4 = score4 + 1;
 score11 = score11 + 1;
-    }else if (answer4 === "sci-fi") {
+    }else if (answer7 === "sci-fi") {
         score9 = score9 + 1;
 
-    }else if (answer4 === "western") {
+    }else if (answer7 === "western") {
         score6 = score6 + 1;
 
     } else {
