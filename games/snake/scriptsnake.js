@@ -21,12 +21,26 @@ function getRandomMultiple(baseNumber, minMultiple, maxMultiple) {
   return randomFactor * baseNumber;
 }
 
+
+
 // Generate a random multiple of 7 between 7 and 70
 const randomMultipleOfSeven = getRandomMultiple(90, 0, s.width);
 const randomMultipleOfOne = getRandomMultiple(90, 0, s.height);
 
 apple.style.left = randomMultipleOfSeven+'px';
 apple.style.top = randomMultipleOfOne+'px';
+
+
+function playerMove() {
+    for (var i = 0; i < 90000000; i++) {
+   xplayer.style.left = 6+'px';
+yplayer.style.top = 6+'px';
+alert('function');
+    }
+}
+
+setInterval(playerMove, 1000); // set delay in milliseconds
+
 
 
 document.addEventListener('keydown', function(event) {
@@ -57,21 +71,23 @@ xplayer = 90+ xplayer;
 player.style.left = xplayer+'px';
 player.style.top = yplayer+'px';
     }
-    if(event.keyCode == 38) {
-        // alert('up was pressed');
-yplayer = -90+ yplayer;   
-player.style.left = xplayer+'px';
-player.style.top = yplayer+'px';
-     }
-      if(event.keyCode == 40) {
-        //alert('Down was pressed');
-yplayer = 90+ yplayer;   
-player.style.left = xplayer+'px';
-player.style.top = yplayer+'px';
-    }
+   
+//     if(event.keyCode == 38) {
+//         // alert('up was pressed');
+// yplayer = -90+ yplayer;   
+// player.style.left = xplayer+'px';
+// player.style.top = yplayer+'px';
+//      }
+//       if(event.keyCode == 40) {
+//         //alert('Down was pressed');
+// yplayer = 90+ yplayer;   
+// player.style.left = xplayer+'px';
+// player.style.top = yplayer+'px';
+//     }
 
 });
-for (var i = 0; i < 9; i++) {
+
+for (var i = 0; i < 90; i++) {
     var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
 document.body.appendChild(divClone);
@@ -82,7 +98,7 @@ square.style.top = yposition+'px';
 }
     yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
     var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
 document.body.appendChild(divClone);
@@ -93,7 +109,51 @@ square.style.top = yposition+'px';
 }
     yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
+    var square = document.querySelector(".square");
+var divClone = square.cloneNode(true); // the true is for deep cloning
+document.body.appendChild(divClone);
+    xposition=xposition+90;
+square.style.position = "absolute";
+square.style.left = xposition+'px';
+square.style.top = yposition+'px';
+}
+    yposition=yposition+90;
+xposition=-90;
+for (var i = 0; i < 90; i++) {
+    var square = document.querySelector(".square");
+var divClone = square.cloneNode(true); // the true is for deep cloning
+document.body.appendChild(divClone);
+    xposition=xposition+90;
+square.style.position = "absolute";
+square.style.left = xposition+'px';
+square.style.top = yposition+'px';
+}
+    yposition=yposition+90;
+xposition=-90;
+for (var i = 0; i < 90; i++) {
+    var square = document.querySelector(".square");
+var divClone = square.cloneNode(true); // the true is for deep cloning
+document.body.appendChild(divClone);
+    xposition=xposition+90;
+square.style.position = "absolute";
+square.style.left = xposition+'px';
+square.style.top = yposition+'px';
+}
+    yposition=yposition+90;
+xposition=-90;
+for (var i = 0; i < 90; i++) {
+    var square = document.querySelector(".square");
+var divClone = square.cloneNode(true); // the true is for deep cloning
+document.body.appendChild(divClone);
+    xposition=xposition+90;
+square.style.position = "absolute";
+square.style.left = xposition+'px';
+square.style.top = yposition+'px';
+}
+    yposition=yposition+90;
+xposition=-90;
+for (var i = 0; i < 90; i++) {
 
 var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
@@ -108,7 +168,7 @@ square.style.top = yposition+'px';
 }
     yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
     var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
 document.body.appendChild(divClone);
@@ -119,7 +179,7 @@ square.style.top = yposition+'px';
 }
     yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
 
 var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
@@ -131,7 +191,7 @@ square.style.top = yposition+'px';
 }
    yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
     var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
 document.body.appendChild(divClone);
@@ -142,7 +202,7 @@ square.style.top = yposition+'px';
 }
     yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
 
 var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
@@ -153,7 +213,7 @@ square.style.left = xposition+'px';
 square.style.top = yposition+'px';
 }   yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
     var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
 document.body.appendChild(divClone);
@@ -164,7 +224,7 @@ square.style.top = yposition+'px';
 }
     yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
 
 var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
@@ -175,7 +235,7 @@ square.style.left = xposition+'px';
 square.style.top = yposition+'px';
 }   yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
     var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
 document.body.appendChild(divClone);
@@ -186,7 +246,7 @@ square.style.top = yposition+'px';
 }
     yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
 
 var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
@@ -197,7 +257,7 @@ square.style.left = xposition+'px';
 square.style.top = yposition+'px';
 }   yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
     var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
 document.body.appendChild(divClone);
@@ -208,7 +268,30 @@ square.style.top = yposition+'px';
 }
     yposition=yposition+90;
 xposition=-90;
-for (var i = 0; i < 9; i++) {
+for (var i = 0; i < 90; i++) {
+
+var square = document.querySelector(".square");
+var divClone = square.cloneNode(true); // the true is for deep cloning
+document.body.appendChild(divClone);
+    xposition=xposition+90;
+square.style.position = "absolute";
+square.style.left = xposition+'px';
+square.style.top = yposition+'px';
+}
+yposition=yposition+90;
+xposition=-90;
+for (var i = 0; i < 90; i++) {
+    var square = document.querySelector(".square");
+var divClone = square.cloneNode(true); // the true is for deep cloning
+document.body.appendChild(divClone);
+    xposition=xposition+90;
+square.style.position = "absolute";
+square.style.left = xposition+'px';
+square.style.top = yposition+'px';
+}  
+    yposition=yposition+90;
+xposition=-90;
+for (var i = 0; i < 90; i++) {
 
 var square = document.querySelector(".square");
 var divClone = square.cloneNode(true); // the true is for deep cloning
