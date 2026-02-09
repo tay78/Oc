@@ -1,0 +1,118 @@
+*{
+    background: lightblue;
+}
+.click{
+ display: flex;
+ justify-content: space-around;
+ flex-direction: column;
+}
+.d{
+  background: lightblue;
+  color: white;
+}
+a{
+  text-decoration: none;
+    background: plum;
+    font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   color: white;
+   font-size: 2.5vw;
+}
+.a{
+    width: 20vw;
+    height: 10vw;
+    border-radius:20% ;
+    background: plum;
+    font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.b{
+    width: 20vw;
+    height: 10vw;
+    border-radius: 20%;
+    background: plum;
+    font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.c{
+    width:20vw;
+    height: 10vw;
+    border-radius: 20%;
+    background: plum;
+   font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+}
+.d{
+  width:20vw;
+  height: 10vw;
+  border-radius: 20%;
+  background: plum;
+  font-family: "Fuzzy Bubbles",sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.bl{
+  width:20vw;
+  height: 10vw;
+  border-radius: 20%;
+  background: lightblue;
+  
+}
+
+h2, p, h1, h3, h4{
+  font-size: 2vw;
+  background: plum;
+}
+img{
+
+  height: 50vw;
+}
+
+.bod{
+
+  background: plum;
+  margin: 5vw;
+  padding: 5vw;
+  border-radius: 7%;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

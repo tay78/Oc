@@ -1,0 +1,44 @@
+body{
+    background: #105B56;
+}
+h1{
+color: gold;
+    display: flex;
+    justify-content: center;
+
+}
+img{
+width: 100%;
+
+}
+.image{
+display:flex;
+justify-content: center;
+
+}
+h4{
+    color: gold;
+
+}
+h3{
+    color: gold;
+}
+.color{
+    
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+display: block;
+}
+.activity{
+
+    display: flex;
+    justify-content: space-evenly;
+display: none;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
