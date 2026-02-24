@@ -1,10 +1,107 @@
 *{
     background: lightblue;
+
+}
+body{
+   display: flex;
+ flex-direction: column;
+      width: 60vw;
+    height: 80vw;
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+.pics{
+   display: flex;
+    padding: 1vw;
+   text-align: center;
+    flex-direction: column;
+   background: plum;
+  height: 30vw;
+  width: 60vw;
+
+}.pics1{
+   display: flex;
+   justify-content: space-between;
+   margin: 5vw;
+    padding: 1vw;
+   text-align: center;
+    flex-direction: row;
+   background: plum;
+  height: 30vw;
+  width: 60vw;
+
+}
+.pics2{
+   display: flex;
+   justify-content: space-between;
+   margin: 5vw;
+    padding: 1vw;
+   text-align: center;
+    flex-direction: row;
+   background: plum;
+  height: 30vw;
+  width: 60vw;
+
+}.pics3{
+   display: flex;
+   justify-content: space-between;
+   margin: 5vw;
+    padding: 1vw;
+   text-align: center;
+    flex-direction: row;
+   background: plum;
+  height: 30vw;
+  width: 60vw;
+
+}
+
+.textHead{
+   display: flex;
+   margin: 20vw;
+    padding: 1vw;
+   text-align: center;
+    flex-direction: row;
+   background: plum;
+  height: 30vw;
+  width: 60vw;
+}
+.robotHead{
+   display: flex;
+   margin: 20vw;
+    padding: 1vw;
+   text-align: center;
+    flex-direction: row;
+   background: plum;
+  height: 30vw;
+  width: 60vw;
+}
+.artHead{
+   display: flex;
+   margin: 20vw;
+    padding: 1vw;
+   text-align: center;
+    flex-direction: row;
+   background: plum;
+  height: 30vw;
+  width: 60vw;
+}
+.gameHead{
+   display: flex;
+   margin: 20vw;
+    padding: 1vw;
+   text-align: center;
+    flex-direction: row;
+   background: plum;
+  height: 30vw;
+  width: 60vw;
 }
 .click{
  display: flex;
  justify-content: space-around;
- flex-direction: column;
+       width: 80vw;
+    height: 80vw;
+    border-radius:20% ;
+    background: plum;
+    font-family: "Fuzzy Bubbles", sans-serif;
 }
 .d{
   background: lightblue;
@@ -63,13 +160,15 @@ a{
   
 }
 
-h2, p, h1, h3, h4{
-  font-size: 2vw;
+h2, p, h1, h3, h4, a{
+  font-size: 1.6vw;
   background: plum;
+  color: black;
 }
 img{
-
-  height: 50vw;
+    background: plum;
+padding: 1vw;
+  height: 30vw;
 }
 
 .bod{
