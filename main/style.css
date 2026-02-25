@@ -13,21 +13,16 @@ body{
    display: flex;
     padding: 1vw;
    text-align: center;
+   justify-content:space-between;
     flex-direction: column;
-   background: plum;
-  height: 30vw;
-  width: 60vw;
 
-}.pics1{
+}
+.pics1{
    display: flex;
    justify-content: space-between;
    margin: 5vw;
     padding: 1vw;
-   text-align: center;
     flex-direction: row;
-   background: plum;
-  height: 30vw;
-  width: 60vw;
 
 }
 .pics2{
@@ -35,22 +30,14 @@ body{
    justify-content: space-between;
    margin: 5vw;
     padding: 1vw;
-   text-align: center;
     flex-direction: row;
-   background: plum;
-  height: 30vw;
-  width: 60vw;
 
 }.pics3{
    display: flex;
    justify-content: space-between;
    margin: 5vw;
     padding: 1vw;
-   text-align: center;
     flex-direction: row;
-   background: plum;
-  height: 30vw;
-  width: 60vw;
 
 }
 
