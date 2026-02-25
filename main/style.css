@@ -13,9 +13,17 @@ body{
    display: flex;
     padding: 1vw;
    text-align: center;
-   justify-content:space-between;
+   width:100vw;
     flex-direction: column;
-
+ justify-content:space-between;
+}
+.robom{
+   display: flex;
+    padding-left: 20vw;
+   text-align: center;
+   width: 50vw;
+   align-items: center;
+    flex-direction: column;
 }
 .pics1{
    display: flex;
